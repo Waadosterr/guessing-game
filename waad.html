@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index3.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- linkking to css file -->
+    <link rel="stylesheet" href="./waad_files/style.css">
+
+    <!-- js code link -->
+    <link rel="script" href="./waad_files/script.js.download">
+    <title>waad</title>
+  </head>
+
+
+
+    <body><h1>
+      This paragraph will be an introduction of what ill be trying to create
+    </h1>
+
+
+  
+
+    <hr>
+      Hello in this code ill be trying to create a guesing the number game ill
+      be using w3 schools.
+
+<hr>
+
+
+<div>Whats W3 schools?</div>
+    
+
+<p>
+      w3 schools is a website that teaches you how to code. not with one
+      language biut with all the coding langauges it also helps teach you how to
+      code and explains to you what the code means.
+</p>&gt;
+    
+<hr>
+
+
+<header>Enjoy my game</header>
+
+
+
+<p>
+    This game is a fun but weird game this computer will think of a random number and you
+     need to guess the exact same number this computwr is tyhinking off
+</p>
+
+
+
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="./waad_files/style.css">
+  <script src="./waad_files/script.js.download" defer=""></script>
+
+
+
+  <h1>Guess the Number!</h1>
+  <p>this pc is thinking of a number between 1 and 200</p>
+
+  <input id="guessInput" type="number" placeholder="Enter your guess">
+  <button id="guessBtn">Guess</button>
+
+  <p id="message"></p>
+<button id="resetBtn">Reset Game</button>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+ 
+     </body></html>
